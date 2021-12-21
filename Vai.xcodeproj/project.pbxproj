@@ -13,6 +13,8 @@
 		D48E1C33277277F30025F373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E1C21277277F10025F373 /* ContentView.swift */; };
 		D48E1C34277277F30025F373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48E1C22277277F20025F373 /* Assets.xcassets */; };
 		D48E1C35277277F30025F373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48E1C22277277F20025F373 /* Assets.xcassets */; };
+		D48E1C3F277278210025F373 /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E1C3E277278210025F373 /* Arena.swift */; };
+		D48E1C40277278210025F373 /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E1C3E277278210025F373 /* Arena.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		D48E1C27277277F30025F373 /* Vai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48E1C2D277277F30025F373 /* Vai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48E1C2F277277F30025F373 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D48E1C3E277278210025F373 /* Arena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arena.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +57,9 @@
 		D48E1C1F277277F10025F373 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D48E1C20277277F10025F373 /* VaiApp.swift */,
+				D48E1C3E277278210025F373 /* Arena.swift */,
 				D48E1C21277277F10025F373 /* ContentView.swift */,
+				D48E1C20277277F10025F373 /* VaiApp.swift */,
 				D48E1C22277277F20025F373 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -178,6 +182,7 @@
 			files = (
 				D48E1C32277277F30025F373 /* ContentView.swift in Sources */,
 				D48E1C30277277F30025F373 /* VaiApp.swift in Sources */,
+				D48E1C3F277278210025F373 /* Arena.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +192,7 @@
 			files = (
 				D48E1C33277277F30025F373 /* ContentView.swift in Sources */,
 				D48E1C31277277F30025F373 /* VaiApp.swift in Sources */,
+				D48E1C40277278210025F373 /* Arena.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

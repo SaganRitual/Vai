@@ -4,9 +4,11 @@ import SwiftUI
 
 @main
 struct VaiApp: App {
+    @ObservedObject var arena = Arena()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(arena: arena).onAppear { arena.postInit() }
         }
     }
 }
