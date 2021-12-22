@@ -23,7 +23,7 @@ class Arena: ObservableObject {
     }
 
     func ping() {
-        DispatchQueue.global().asyncAfter(wallDeadline: .now() + 1) { [weak self] in
+        DispatchQueue.main.asyncAfter(wallDeadline: .now() + 1) { [weak self] in
             guard let myself = self else { return }
 
             print("Reading (x: \(myself.frame.origin.x), y: \(myself.frame.origin.y))")
